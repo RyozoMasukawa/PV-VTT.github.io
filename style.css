@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+h1 {
+    background-color: #007acc;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+p, ul {
+    margin: 20px;
+    padding: 10px;
+}
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
