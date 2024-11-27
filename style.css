@@ -5,34 +5,70 @@ body {
     padding: 0;
     background-color: #f9f9f9;
 }
-h1 {
+header {
     background-color: #007acc;
     color: #fff;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
-}
-p, ul {
-    margin: 20px;
-    padding: 10px;
-}
-a {
-    color: #007acc;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
 }
 nav {
     background-color: #333;
     color: #fff;
-    padding: 10px;
     text-align: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 nav a {
     color: #fff;
     margin: 0 15px;
     text-decoration: none;
+    font-weight: bold;
 }
 nav a:hover {
     text-decoration: underline;
+}
+section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+section h2 {
+    color: #007acc;
+}
+video {
+    width: 100%;
+    max-width: 640px;
+    display: block;
+    margin: 10px auto;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    margin: 10px 0;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007acc;
+    color: #fff;
+    margin-top: 20px;
+}
+.btn-download {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007acc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.btn-download:hover {
+    background-color: #005b99;
 }
