@@ -5,33 +5,22 @@ body {
     padding: 0;
     background-color: #f9f9f9;
 }
-.paper-info {
-    background-color: #e0e0e0;
-    padding: 10px;
-    text-align: center;
-}
-.paper-info a {
-    color: #007acc;
-    text-decoration: none;
-}
-.paper-info a:hover {
-    text-decoration: underline;
-}
 header {
     background-color: #007acc;
     color: #fff;
     padding: 20px;
     text-align: center;
 }
-.logo-container {
+header .logo-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 15px;
     margin-bottom: 10px;
 }
-.logo {
-    height: 50px;
-    margin: 0 10px;
+header .logo {
+    max-width: 100px;
+    height: auto;
 }
 nav {
     background-color: #333;
@@ -59,6 +48,28 @@ section {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-section h2 {
-    color: #007acc;
-} 
+.video-container video {
+    width: 100%;
+    max-width: 640px;
+    display: block;
+    margin: 10px auto;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007acc;
+    color: #fff;
+    margin-top: 20px;
+}
+.btn-download {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007acc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.btn-download:hover {
+    background-color: #005b99;
+}
